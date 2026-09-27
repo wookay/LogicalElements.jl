@@ -1,8 +1,8 @@
-# baremodule LogicalOperators
+# baremodule LogicalElements
 
 """
     abstract type AbstractLogicalOperator{T} end
 """
 abstract type AbstractLogicalOperator{T} end
 
-# baremodule LogicalOperators
+# baremodule LogicalElements

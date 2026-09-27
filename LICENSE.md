@@ -1,5 +1,5 @@
-# LogicalOperators.jl 🧩
-https://github.com/wookay/LogicalOperators.jl/blob/main/LICENSE.md
+# LogicalElements.jl 🧩
+https://github.com/wookay/LogicalElements.jl/blob/main/LICENSE.md
 MIT License
 
 Copyright (c) 2025-2026: WooKyoung Noh

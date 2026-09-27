@@ -6,8 +6,8 @@
 | `\neg`                       | ¬       | [`NOT`](@ref) |
 
 ```@docs
-LogicalOperators.AND
-LogicalOperators.OR
-LogicalOperators.XOR
-LogicalOperators.NOT
+LogicalElements.AND
+LogicalElements.OR
+LogicalElements.XOR
+LogicalElements.NOT
 ```

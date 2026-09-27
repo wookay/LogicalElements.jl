@@ -1,5 +1,5 @@
 ```@docs
-LogicalOperators.AbstractLogicalOperator
-LogicalOperators.@logical
-LogicalOperators.@operators
+LogicalElements.AbstractLogicalOperator
+LogicalElements.@logical
+LogicalElements.@operators
 ```

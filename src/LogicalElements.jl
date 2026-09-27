@@ -1,4 +1,4 @@
-baremodule LogicalOperators
+baremodule LogicalElements
 
 using Base: Base, @__MODULE__
 
@@ -12,4 +12,4 @@ Base.include(@__MODULE__, "macros.jl")
 # export ∧,   ∨,  ⊕,   ¬
 Base.include(@__MODULE__, "operators.jl")
 
-end # baremodule LogicalOperators
+end # baremodule LogicalElements

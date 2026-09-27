@@ -1,4 +1,4 @@
-# baremodule LogicalOperators
+# baremodule LogicalElements
 
 using .Base: Vector, Module, @__LINE__
 using .Base: esc, length, push!
@@ -60,4 +60,4 @@ macro operators(ops::Symbol...)
     eval_logical_macro(mod, ops)
 end # macro operators(::Symbol...)
 
-# baremodule LogicalOperators
+# baremodule LogicalElements

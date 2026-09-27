@@ -1,3 +1,3 @@
-# LogicalOperators.jl 🧩
+# LogicalElements.jl 🧩
 
-<https://github.com/wookay/LogicalOperators.jl>
+<https://github.com/wookay/LogicalElements.jl>

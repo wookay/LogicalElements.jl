@@ -1,4 +1,4 @@
-# baremodule LogicalOperators
+# baremodule LogicalElements
 
 # AND  ∧  \wedge
 # OR   ∨  \vee
@@ -74,4 +74,4 @@ const ∨ = vee
 const ⊕ = oplus
 const ¬ = neg
 
-# baremodule LogicalOperators
+# baremodule LogicalElements

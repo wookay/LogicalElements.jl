@@ -1,7 +1,7 @@
-module test_logicaloperators_show
+module test_logicalelements_show
 
 using Test
-using LogicalOperators: AND, OR, NOT, ∧, ∨, ¬
+using LogicalElements: AND, OR, NOT, ∧, ∨, ¬
 
 Base.show(io::IO, and::AND{<:Union{Bool, Int}}) = join(io, and.elements, " ∧ ")
 @test sprint(show, true ∧ false) == "true ∧ false"
@@ -14,4 +14,4 @@ Base.show(io::IO, or::OR{<:Union{Bool, Int}}) = join(io, or.elements, " ∨ ")
 Base.show(io::IO, not::NOT{<:Union{Bool, Int}}) = print(io, "¬", first(not.elements))
 @test sprint(show, ¬true) == "¬true"
 
-end # module test_logicaloperators_show
+end # module test_logicalelements_show

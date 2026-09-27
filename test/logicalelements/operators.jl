@@ -1,7 +1,7 @@
-module test_logicaloperators_operators
+module test_logicalelements_operators
 
 using Test
-using LogicalOperators: AND, OR, XOR, NOT, ∧, ∨, ⊕, ¬
+using LogicalElements: AND, OR, XOR, NOT, ∧, ∨, ⊕, ¬
 
 @test ∧() == AND() == AND{Any}()
 @test ∨() == OR()  == OR{Any}()
@@ -24,4 +24,4 @@ using LogicalOperators: AND, OR, XOR, NOT, ∧, ∨, ⊕, ¬
 @test_throws MethodError AND{Int}("a", "b", "c")
 @test_throws MethodError AND{String}(1, 2)
 
-end # module test_logicaloperators_operators
+end # module test_logicalelements_operators

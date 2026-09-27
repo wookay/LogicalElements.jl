@@ -1,7 +1,7 @@
-module test_logicaloperators_custom_operators
+module test_logicalelements_custom_operators
 
 using Test
-using LogicalOperators: AbstractLogicalOperator, @logical, @operators
+using LogicalElements: AbstractLogicalOperator, @logical, @operators
 
 @operators SPACE COMMA
 @test SPACE("hello", "world") == SPACE{String}("hello", "world")
@@ -19,4 +19,4 @@ Base.show(io::IO, comma::COMMA{<:Union{Int, String}}) = join(io, comma.elements,
 Base.show(io::IO, space::LF{String}) = join(io, space.elements, "\n")
 @test sprint(show, LF("hello", "world")) == "hello\nworld"
 
-end # module test_logicaloperators_custom_operators
+end # module test_logicalelements_custom_operators

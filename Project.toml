@@ -1,4 +1,4 @@
-name = "LogicalOperators"
+name = "LogicalElements"
 uuid = "6ac76662-4673-4d6a-8390-a82adc3670cf"
 version = "0.1.0"
 authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
@@ -11,5 +11,5 @@ Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
 test = ["Test", "Jive"]
 
 [compat]
-julia = "1"
+julia = "1.6"
 Jive = "0.3"

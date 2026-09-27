@@ -1,7 +1,7 @@
-module test_logicaloperators_union_types
+module test_logicalelements_union_types
 
 using Test
-using LogicalOperators: AND, OR, NOT, ∧, ∨, ¬
+using LogicalElements: AND, OR, NOT, ∧, ∨, ¬
 
 @test true ∧ true       == AND(true, true)      == AND{Bool}(true, true)
 @test true ∧ 42         == AND(true, 42)        == AND{Union{Bool, Int}}(true, 42)
@@ -18,4 +18,4 @@ using LogicalOperators: AND, OR, NOT, ∧, ∨, ¬
 # const NTuple{N,T} = Tuple{Vararg{T,N}}
 @test (NTuple{N,T} where {N, T}) === (Tuple{Vararg{T,N}} where {N, T})
 
-end # module test_logicaloperators_union_types
+end # module test_logicalelements_union_types
